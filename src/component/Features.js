@@ -6,6 +6,10 @@ function Features() {
     <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-up">
         <div class="row">
+          <div class="col-md-12" id="heading">
+            <h1>EPC Solutions & TurnKey Projects</h1>
+          </div>
+
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon">

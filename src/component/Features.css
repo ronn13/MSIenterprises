@@ -1,7 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+#heading {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  font-size: 48px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: #444;
+  margin-top: 1em;
+  padding: 0 0 0 0;
+  font-weight: 100;
+  text-align: center;
+}
+/* 
 .featured-services {
   margin-top: 50px;
   margin-bottom: 50px;
-}
+} */
 
 .featured-services .icon-box {
   padding: 30px;
