@@ -1,0 +1,18 @@
+section {
+  padding: 15px 0;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+section img {
+  max-width: 70%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+img:hover {
+  transform: scale(1.15);
+}

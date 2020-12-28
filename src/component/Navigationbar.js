@@ -1,11 +1,12 @@
 import React from "react";
 import "./Navigationbar.css";
+import i from "./1.jpg";
 
 function Navigationbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <div className="container">
+        <div className="container-fluid">
           <a className="navbar-brand" href="#">
             M S I
           </a>
@@ -69,11 +70,7 @@ function Navigationbar() {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img
-              className="d-block w-100"
-              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80"
-              alt="First slide"
-            />
+            <img className="d-block w-100" src={i} alt="First slide" />
             <div className="carousel-caption d-none d-md-block">
               <h5>MSI ENTERPRIESES</h5>
               <p className="d-none d-md-block">
