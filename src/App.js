@@ -1,12 +1,12 @@
 import "./App.css";
 import NavigationBar from "./component/Navigationbar";
+import Features from "./component/Features";
 
 function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <h1>SURAJ</h1>
-      <p>asbkfabsfjkasbfjkbfkjabcjk</p>
+      <Features />
     </div>
   );
 }
