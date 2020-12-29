@@ -13,6 +13,6 @@ section img {
   padding: 15px 0;
 }
 
-img:hover {
+section img:hover {
   transform: scale(1.15);
 }

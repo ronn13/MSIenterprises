@@ -1,18 +1,21 @@
 import "./App.css";
 import NavigationBar from "./component/Navigationbar";
-import Features from "./component/Features";
-import Client from "./component/Client";
-import InstallationSection from "./component/InstallationSection";
 import Footer from "./component/Footer";
+import Landing from "./component/Landing";
+import About from "./component/About";
+
+import { Router, Route, Switch } from "react-router-dom";
+import history from "./history";
 
 function App() {
   return (
     <div className="App">
-      <NavigationBar />
-      <Features />
-      <InstallationSection />
-      <Client />
-      <Footer />
+      <Router history={history}>
+        <Switch>
+          <Route path="/" exact component={Landing} />
+          <Route path="/about" exact component={About} />
+        </Switch>
+      </Router>
     </div>
   );
 }
