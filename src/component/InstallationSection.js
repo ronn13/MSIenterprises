@@ -4,7 +4,7 @@ import "./InstallationSection.css";
 function InstallationSection() {
   return (
     <section>
-      <div class="container-fluid" data-aos="zoom-in">
+      <div class="container-fluid installationsectionhead" data-aos="zoom-in">
         <div class="row">
           <div class="col-md-12">
             <h1>Installation & commissioning</h1>

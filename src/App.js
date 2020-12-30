@@ -3,6 +3,7 @@ import NavigationBar from "./component/Navigationbar";
 import Footer from "./component/Footer";
 import Landing from "./component/Landing";
 import About from "./component/About";
+import Contact from "./component/Contact";
 
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./history";
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/about" exact component={About} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </Router>
     </div>

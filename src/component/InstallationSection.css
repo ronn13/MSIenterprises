@@ -6,13 +6,13 @@ section {
   align-content: center;
 }
 
-section img {
+section .installationsectionhead img {
   max-width: 70%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
 }
 
-section img:hover {
+section .installationsectionhead img:hover {
   transform: scale(1.15);
 }

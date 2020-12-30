@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Navigationbar.css";
 import i from "./1.jpg";
+import { Link } from "react-router-dom";
 
 function Navigationbar() {
   return (
@@ -26,14 +27,14 @@ function Navigationbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link" href="#">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/about" className="nav-link" href="#">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -46,9 +47,9 @@ function Navigationbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/contact" className="nav-link" href="#">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

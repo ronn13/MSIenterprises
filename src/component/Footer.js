@@ -29,8 +29,8 @@ function Footer() {
                   <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5">
                     <b>ADDRESS</b>
                   </h6>
-                  <p class="mb-1">H-16/1181 sangam vihar</p>
-                  <p>New Delhi-110080</p>
+                  <p class="mb-1">Rz-20c/6c GL-1 Main Sagarpur Pur </p>
+                  <p>New Delhi-110046</p>
                 </div>
               </div>
               <div class="row ">
@@ -63,7 +63,7 @@ function Footer() {
                     <span>
                       <i class="fa fa-envelope" aria-hidden="true"></i>
                     </span>{" "}
-                    msienterprices@gmail.com
+                    Myrasolarandinfra@gmail.com
                   </small>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
@@ -74,7 +74,9 @@ function Footer() {
                     <span>
                       <i class="fa fa-envelope" aria-hidden="true"></i>
                     </span>{" "}
-                    +91 9315329831
+                    Nitika : 9873642101 <br />
+                    Jatin : 8130397394 <br />
+                    RS Verma : 9999000503 <br />
                   </small>
                 </div>
               </div>

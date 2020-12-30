@@ -6,16 +6,14 @@
   line-height: 40px;
   letter-spacing: -1px;
   color: #444;
-  margin-top: 1em;
   padding: 0 0 0 0;
   font-weight: 100;
   text-align: center;
 }
-/* 
+
 .featured-services {
-  margin-top: 50px;
-  margin-bottom: 50px;
-} */
+  margin-top: 0px;
+}
 
 .featured-services .icon-box {
   padding: 30px;

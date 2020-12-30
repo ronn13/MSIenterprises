@@ -1,6 +1,9 @@
+.carouselExampleIndicators {
+  margin-bottom: 0;
+}
 .carousel-item {
   height: 100vh;
-  min-height: 300px; 
+  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
