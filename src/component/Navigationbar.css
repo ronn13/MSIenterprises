@@ -1,33 +1,3 @@
-.carouselExampleIndicators {
-  margin-bottom: 0;
-}
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.carousel-caption {
-  bottom: 50%;
-}
-
-.carousel-caption h5 {
-  font-size: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-}
-
-.carousel-caption p {
-  width: 75%;
-  margin: auto;
-  font-size: 1rem;
-  line-height: 1.9;
-}
-
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 25px;

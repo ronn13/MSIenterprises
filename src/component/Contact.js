@@ -4,7 +4,30 @@ import i from "./1.jpg";
 import Footer from "./Footer";
 import Navigationbar from "./Navigationbar";
 
+import emailjs from "emailjs-com";
+
 function Contact() {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_aidg8ds",
+        "template_jt5rzcl",
+        e.target,
+        "user_e3u8no5Kdyhd9eZ1eccij"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
+
   return (
     <>
       <Navigationbar />
@@ -21,7 +44,7 @@ function Contact() {
             </div>
           </div>
           <div class="col-md-9 col-sm-12">
-            <div class="contact-form">
+            <form onSubmit={sendEmail} class="contact-form">
               <div class="form-group">
                 <label class="control-label col-sm-2" for="fname">
                   Name:
@@ -30,23 +53,23 @@ function Contact() {
                   <input
                     type="text"
                     class="form-control"
-                    id="fname"
+                    id="name"
                     placeholder="Enter Your Name"
-                    name="fname"
+                    name="name"
                   />
                 </div>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-2" for="lname">
+                <label class="control-label col-sm-2" for="mobile">
                   Mobile:
                 </label>
                 <div class="col-sm-10">
                   <input
                     type="text"
                     class="form-control"
-                    id="lname"
+                    id="mobile"
                     placeholder="Enter Last Name"
-                    name="lname"
+                    name="mobile"
                   />
                 </div>
               </div>
@@ -65,7 +88,7 @@ function Contact() {
                 </div>
               </div>
               <div class="form-group">
-                <label class="control-label col-sm-2" for="email">
+                <label class="control-label col-sm-2" for="rooftoparea">
                   Rooftop Area:
                 </label>
                 <div class="col-sm-10">
@@ -87,17 +110,18 @@ function Contact() {
                     class="form-control"
                     rows="5"
                     id="comment"
+                    name="comment"
                   ></textarea>
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">
+                  <button type="submit" value="send" class="btn btn-default">
                     Submit
                   </button>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
-
 import i from "./1.jpg";
+import "./Slider.css";
 
 function Slider() {
   return (
@@ -22,7 +22,7 @@ function Slider() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img className="d-block w-100" src={i} alt="First slide" />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption ">
               <h5>MSI ENTERPRIESES</h5>
               <p className="d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -36,7 +36,7 @@ function Slider() {
               src="https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=756&q=80"
               alt="Second slide"
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption">
               <h5>MSI ENTERPRIESES</h5>
               <p className="d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -50,7 +50,7 @@ function Slider() {
               src="https://images.unsplash.com/photo-1574360773950-133867861ae9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
               alt="Third slide"
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption">
               <h5>MSI ENTERPRIESES</h5>
               <p className="d-none d-md-block">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

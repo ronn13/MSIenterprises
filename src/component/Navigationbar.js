@@ -37,9 +37,9 @@ function Navigationbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Portfolio
-                </a>
+                <Link to="/project" className="nav-link" href="#">
+                  Project
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">

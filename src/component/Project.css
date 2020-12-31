@@ -1,0 +1,26 @@
+.project-section {
+  margin-top: 100px;
+}
+
+.project-section .project-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-section .col-md-4 {
+  margin-top: 25px;
+}
+
+.project-section .col-md-4 .card img {
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+
+  transition: all 0.8s ease-in-out;
+}
+
+.project-section .col-md-4 .card img:hover {
+  transform: scale(1.5);
+}
