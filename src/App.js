@@ -8,6 +8,7 @@ import Project from "./component/Project";
 
 import { Router, Route, Switch } from "react-router-dom";
 import history from "./history";
+import Services from "./component/Services";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" exact component={About} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/project" exact component={Project} />
+          <Route path="/services" exact component={Services} />
         </Switch>
       </Router>
     </div>
