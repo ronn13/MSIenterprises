@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import i from "./1.jpg";
 import Footer from "./Footer";
@@ -27,6 +27,10 @@ function Contact() {
       );
     e.target.reset();
   }
+
+  useEffect(() => {
+    document.title = "MSI - Contact Us";
+  }, []);
 
   return (
     <>

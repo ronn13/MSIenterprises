@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigationbar from "./Navigationbar";
 import "./Project.css";
 import Footer from "./Footer";
 import i from "./1.jpg";
 
 function Project() {
+  useEffect(() => {
+    document.title = "MSI - Our Projects";
+  }, []);
+
   return (
     <>
       <Navigationbar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Features from "./Features";
 import Client from "./Client";
@@ -8,6 +8,10 @@ import Navigationbar from "./Navigationbar";
 import Footer from "./Footer";
 
 function Landing() {
+  useEffect(() => {
+    document.title = "MSI Enterprises";
+  }, []);
+
   return (
     <>
       <Navigationbar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigationbar from "./Navigationbar";
 import Footer from "./Footer";
 import "./About.css";
@@ -6,6 +6,10 @@ import i from "./1.jpg";
 import Team from "./Team";
 
 function About() {
+  useEffect(() => {
+    document.title = "MSI - About Us";
+  }, []);
+
   return (
     <React.Fragment>
       <Navigationbar />
