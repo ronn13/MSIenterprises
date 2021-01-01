@@ -42,3 +42,8 @@
     10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))
   ) !important;
 }
+
+.footer .footer-link {
+  text-decoration: none;
+  color: #f8f9fa !important;
+}

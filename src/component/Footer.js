@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -19,10 +20,35 @@ function Footer() {
                     <b>MENU</b>
                   </h6>
                   <ul class="list-unstyled">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Product</li>
-                    <li>Contact Us</li>
+                    <li>
+                      <Link to="/" class="footer-link" href="#">
+                        Home
+                      </Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/about" class="footer-link" href="#">
+                        About
+                      </Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/project" class="footer-link" href="#">
+                        Projects
+                      </Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/services" class="footer-link" href="#">
+                        Services
+                      </Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/contact" class="footer-link" href="#">
+                        Contact Us
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <div class="col-xl-2 col-md-4 col-sm-4 col-12">

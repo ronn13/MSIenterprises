@@ -10,6 +10,7 @@ import Footer from "./Footer";
 function Landing() {
   useEffect(() => {
     document.title = "MSI Enterprises";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

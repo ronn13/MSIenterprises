@@ -8,6 +8,7 @@ import Team from "./Team";
 function About() {
   useEffect(() => {
     document.title = "MSI - About Us";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

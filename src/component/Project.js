@@ -7,6 +7,7 @@ import i from "./1.jpg";
 function Project() {
   useEffect(() => {
     document.title = "MSI - Our Projects";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

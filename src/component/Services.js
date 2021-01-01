@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Navigationbar from "./Navigationbar";
 import "./Services.css";
 
 import i from "./1.jpg";
 function Services() {
+  useEffect(() => {
+    document.title = "MSI - Our Services";
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navigationbar />

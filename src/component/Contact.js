@@ -30,6 +30,7 @@ function Contact() {
 
   useEffect(() => {
     document.title = "MSI - Contact Us";
+    window.scrollTo(0, 0);
   }, []);
 
   return (
