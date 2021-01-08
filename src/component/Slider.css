@@ -1,6 +1,13 @@
 .carousel-caption {
   text-align: center;
 }
+.carousel-item {
+  height: 70vh;
+}
+
+.carousel-wrapper {
+  width: 100vw;
+}
 
 .carousel-caption h5 {
   font-size: 3rem;
@@ -22,5 +29,9 @@
     letter-spacing: 2px;
     margin-top: 25px;
     font-size: 1rem;
+  }
+
+  .carousel-item {
+    height: 50vh;
   }
 }

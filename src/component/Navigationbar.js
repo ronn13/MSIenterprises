@@ -3,14 +3,15 @@ import React from "react";
 import "./Navigationbar.css";
 import i from "./1.jpg";
 import { Link } from "react-router-dom";
+import logo from "./msilogo.jpeg";
 
 function Navigationbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand" href="#">
-            M S I
+            <img src={logo} width="50" height="50" alt="CoolBrand" />
           </Link>
           <button
             className="navbar-toggler"

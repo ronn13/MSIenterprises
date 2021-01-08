@@ -92,6 +92,22 @@ function Contact() {
                   />
                 </div>
               </div>
+
+              <div class="form-group">
+                <label class="control-label col-sm-2" for="rooftoparea">
+                  Address:
+                </label>
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="address"
+                    placeholder="Enter Address"
+                    name="address"
+                  />
+                </div>
+              </div>
+
               <div class="form-group">
                 <label class="control-label col-sm-2" for="rooftoparea">
                   Rooftop Area:
